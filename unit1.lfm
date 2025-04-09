@@ -1,0 +1,323 @@
+object Form1: TForm1
+  Left = 2215
+  Height = 340
+  Top = 172
+  Width = 343
+  Caption = 'Form1'
+  ClientHeight = 340
+  ClientWidth = 343
+  Color = clScrollBar
+  OnCreate = FormCreate
+  LCLVersion = '3.8.0.0'
+  object Edit1: TEdit
+    Left = 16
+    Height = 23
+    Top = 10
+    Width = 312
+    Alignment = taRightJustify
+    TabOrder = 0
+    Text = '0'
+    OnChange = Edit1Change
+  end
+  object btnBack: TButton
+    Left = 16
+    Height = 50
+    Top = 48
+    Width = 72
+    Caption = 'BACK'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object btnCe: TButton
+    Left = 96
+    Height = 50
+    Top = 48
+    Width = 72
+    Caption = 'CE'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object btnC: TButton
+    Left = 176
+    Height = 50
+    Top = 48
+    Width = 72
+    Caption = 'C'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object btnPm: TButton
+    Left = 256
+    Height = 50
+    Top = 48
+    Width = 72
+    Caption = '+/-'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+  end
+  object btnSeven: TButton
+    Left = 16
+    Height = 50
+    Top = 104
+    Width = 72
+    Caption = '7'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+  end
+  object btnEight: TButton
+    Left = 96
+    Height = 50
+    Top = 104
+    Width = 72
+    Caption = '8'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 6
+  end
+  object btnNine: TButton
+    Left = 176
+    Height = 50
+    Top = 104
+    Width = 72
+    Caption = '9'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 7
+  end
+  object btnPlus: TButton
+    Left = 256
+    Height = 50
+    Top = 104
+    Width = 72
+    Caption = '+'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 8
+  end
+  object btnFour: TButton
+    Left = 16
+    Height = 50
+    Top = 160
+    Width = 72
+    Caption = '4'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 9
+  end
+  object btnFive: TButton
+    Left = 96
+    Height = 50
+    Top = 160
+    Width = 72
+    Caption = '5'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 10
+  end
+  object btnSix: TButton
+    Left = 176
+    Height = 50
+    Top = 160
+    Width = 72
+    Caption = '6'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 11
+  end
+  object btnMinus: TButton
+    Left = 256
+    Height = 50
+    Top = 160
+    Width = 72
+    Caption = '-'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 12
+  end
+  object btnOne: TButton
+    Left = 16
+    Height = 50
+    Top = 216
+    Width = 72
+    Caption = '1'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 13
+  end
+  object btnTwo: TButton
+    Left = 96
+    Height = 50
+    Top = 216
+    Width = 72
+    Caption = '2'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 14
+    OnClick = btnTwoClick
+  end
+  object btnThree: TButton
+    Left = 176
+    Height = 50
+    Top = 216
+    Width = 72
+    Caption = '3'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 15
+  end
+  object btnMultiplication: TButton
+    Left = 256
+    Height = 50
+    Top = 216
+    Width = 72
+    Caption = '*'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 16
+  end
+  object btnZero: TButton
+    Left = 16
+    Height = 50
+    Top = 272
+    Width = 72
+    Caption = '0'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 17
+  end
+  object btnDot: TButton
+    Left = 96
+    Height = 50
+    Top = 272
+    Width = 72
+    Caption = '.'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 18
+  end
+  object btnEqual: TButton
+    Left = 176
+    Height = 50
+    Top = 272
+    Width = 72
+    Caption = '='
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 19
+  end
+  object Button20: TButton
+    Left = 256
+    Height = 50
+    Top = 272
+    Width = 72
+    Caption = '/'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 20
+  end
+end
